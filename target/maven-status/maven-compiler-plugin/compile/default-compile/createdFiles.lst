@@ -1,0 +1,4 @@
+com\example\springbootmysql\resource\UsersResource.class
+com\example\springbootmysql\SpringBootMysqlApplication.class
+com\example\springbootmysql\repository\UsersRepository.class
+com\example\springbootmysql\model\Users.class
