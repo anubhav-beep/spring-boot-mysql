@@ -1,19 +1,19 @@
 package com.example.springbootmysql.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
+
 
 @Entity
 public class Users {
+
+
     @Id
     @GeneratedValue
-    @Column(name="emp_id")
+    @Column(name="id")
     private Integer id;
-    @Column(name = "first_name")
+    @Column(name = "firstname")
     private String first_name;
-    @Column(name = "last_name")
+    @Column(name = "lastname")
     private String last_name;
     @Column(name = "age")
     private Integer age;
